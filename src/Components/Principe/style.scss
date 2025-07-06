@@ -1,0 +1,82 @@
+.principe-page {
+	background-color: #8ac7c8;
+	min-height: 100vh;
+	padding: 1rem;
+	font-family: Arial, sans-serif;
+
+	header {
+		background-color: #f8cfcf;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.5rem 1rem;
+
+		.icon {
+			width: 24px;
+			cursor: pointer;
+		}
+	}
+
+	h1 {
+		margin: 1rem 0;
+		text-align: center;
+		font-size: 1.5rem;
+	}
+
+	.livro-container {
+		background-color: #fcd9d9;
+		border-radius: 2rem;
+		padding: 1rem;
+		text-align: center;
+		margin: 0 auto;
+		width: 80%;
+
+		img {
+			width: 100px;
+			border-radius: 8px;
+		}
+
+		.autor {
+			font-weight: bold;
+			margin-top: 0.5rem;
+		}
+
+		.sinopse {
+			font-size: 0.9rem;
+			margin-top: 0.5rem;
+		}
+	}
+
+	.destaque {
+		margin-top: 2rem;
+		text-align: center;
+
+		h3 {
+			margin: 1rem 0 0.5rem;
+		}
+
+		.motivo {
+			background-color: white;
+			padding: 1rem;
+			margin: 0 auto;
+			width: 80%;
+			border-radius: 10px;
+			font-size: 0.85rem;
+		}
+
+		.icon {
+			width: 24px;
+			margin: 0.5rem;
+		}
+	}
+
+	footer {
+		text-align: center;
+		margin-top: 2rem;
+		a {
+			text-decoration: none;
+			color: darkblue;
+			font-weight: bold;
+		}
+	}
+}
