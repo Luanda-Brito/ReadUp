@@ -20,10 +20,10 @@ export default function Home() {
         <h1>Projeto ReadUp</h1>
         <form onSubmit={handleLogin}>
           <label htmlFor="email">E-mail</label>
-          <Input type="email" id="email" placeholder="superhero@miro.com" />
+          <Input type="email" id="email" placeholder="E-mail" />
 
           <label htmlFor="password">Senha</label>
-          <Input type="password" id="password" placeholder="sua senha" />
+          <Input type="password" id="password" placeholder="Senha" />
 
           <Button type="submit">Entrar</Button>
         </form>
